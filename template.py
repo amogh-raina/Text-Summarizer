@@ -5,7 +5,7 @@ import logging ## Want to log all info during runtime
 logging.basicConfig(filename='template.log', level=logging.INFO, format = '[%(asctime)s] [%(message)s]')
 
 
-project_name = "text_Summarizer"
+project_name = "TextSummarizer"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
@@ -47,4 +47,4 @@ for filepath in list_of_files:
     else:
         logging.info(f"File {filepath} already exists")
 
-        
+
